@@ -1,0 +1,14 @@
+extends layout
+
+block content
+	div(id='menu')
+		h1 DIAPORAMA OF THE INTERNETS
+		h2 Choose your doom:
+		input(id='search', class='textbox', type='text')
+	div(id='diaporama', hidden)
+		div(class='buttons')
+			span(id='stop') stop
+			//span  | 
+			//span(id='pause') pause
+		img(id='imageContainer')
+	script(src='javascripts/doti.js')

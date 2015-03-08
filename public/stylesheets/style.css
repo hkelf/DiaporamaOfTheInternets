@@ -1,0 +1,25 @@
+body {
+	padding: 50px;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+	color: #00B7FF;
+}
+
+.textbox {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	font-size: 20px;
+}
+
+.textbox:focus {
+	outline-width: 0;
+}
+
+.buttons {
+	border-bottom: solid 1px;
+	padding-bottom: 3px;
+	margin-bottom: 6px;
+}
